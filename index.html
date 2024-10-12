@@ -22,6 +22,7 @@
     <!--daisyui-->
 
     <!--css-->
+        <link rel="stylesheet" href="style.css">
     <!--css-->
 
     <!--tailwindcss cdn-->
@@ -37,39 +38,47 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!--fonts-->
-
+    <link href="https://fonts.cdnfonts.com/css/clash-display" rel="stylesheet">
 </head>
 
 <body class="">
     <!-- Header -->
         <header>
             <nav>
-                <ul class="p-0 m-0 flex items-center justify-around list-none text-white bg-black py-5 leading-none">
-                    <li>
-                        <a
-                            href="#"
-                            class="px-2 py-2 rounded-full text-[#FFD400] no-underline text-2xl font-semibold">
-                            Furniture World
-                        </a>
-                    </li>
-        
-                    <li>
-                        <div class="flex justify-center items-center text-center gap-2 text-white">
-                            <span class="menu">Company</span>
-                            <span class="menu">Home</span>
-                            <span class="menu">About us</span>
-                            <span class="menu">Contact</span>
-                        </div>
-                    </li>
-        
-                    <li>
-                        <a
-                            href="#"
-                            class="bg-transparent border border-white px-4 py-1 rounded-full text-white no-underline font-medium">
-                            Get started
-                        </a>
-                    </li>
-                </ul>
+                <!--unorder list-->
+                    <ul class="p-0 m-0 flex items-center justify-around list-none text-white bg-black py-5 leading-none">
+                        <!--logo--> 
+                            <li>
+                                <a
+                                    href="#"
+                                    class="px-2 py-2 rounded-full text-[#FFD400] no-underline text-2xl font-semibold">
+                                    Furniture World
+                                </a>
+                            </li>
+                        <!--logo--> 
+            
+                        <!--navlinks-->
+                            <li>
+                                <div class="flex justify-center items-center text-center gap-2 text-white">
+                                    <span class="menu">Company</span>
+                                    <span class="menu">Home</span>
+                                    <span class="menu">About us</span>
+                                    <span class="menu">Contact</span>
+                                </div>
+                            </li>
+                        <!--navlinks-->
+            
+                        <!--button-->
+                            <li>
+                                <a
+                                    href="#"
+                                    class="bg-transparent border border-white px-4 py-1 rounded-full text-white no-underline font-medium">
+                                    Get started
+                                </a>
+                            </li>
+                        <!--button-->
+                    </ul>
+                <!--unorder list-->
             </nav>
         </header>
     <!-- Header -->
@@ -77,8 +86,69 @@
     <!-- Main -->
         <main style="font-family: 'Alumni Sans', sans-serif;">
             <!-- Hero Section -->
-                <section class="mt-[1px] w-[100%] h-[20px] flex-shrink-0 bg-black">
+                <section class="flex flex-col gap-16 w-[100%] h-[100%] justify-center items-center flex-shrink-0 mt-1">
+                <!--heading & peragraph-->
+                    <div class="w-[100%] h-[100%] bg-black">
+                        <div class="text-white flex gap- justify-evenly bg-black w-[100%] h-[100%] mb-[50px] mt-[50px]">
+                            <!--heading-->
+                                <div class="flex flex-col gap-[20px]">
+                                    <h1 class="text-white font-clash text-[110px] font-extrabold leading-[110px] tracking-[2.2px]"">
+                                        Let’s Design    <br>
+                                        Your Home       <br>
+                                        Very Easily.
+                                    </h1>
 
+                                    <button class="justify-start items-center text-start border-red-100 inline-flex px-[30px] w-[180px] py-[15px] justify-center items-center gap-[10px] rounded-full bg-[#FFD400] text-black font-bold">
+                                        Get Started
+                                    </button>
+                                    
+                                    <img src="images/hero/1.jpg" alt="">
+                                </div>
+                            <!--heading-->
+
+                            <!--peragraph-->
+                            <div>
+                                <p class="h-[124] w-[647] text-xl">
+                                    Interior design is the art of science of enhancing the interior <br>
+                                    of a building to achieve a healthier and more aesthetically     <br>
+                                    pleasing environment for the people using the space.
+                                </p>
+                                <div class="flex gap-10 mb-[50px]">
+                                    <div>
+                                        <h1 class="text-white text-[56px] font-extrabold leading-[60px]">
+                                            400+
+                                        </h1>
+                                        <p>
+                                            Client
+                                        </p>
+                                    </div>
+
+                                    <div>
+                                        <h1 class="text-white text-[56px] font-extrabold leading-[60px]">
+                                            400+
+                                        </h1>
+                                        <p>
+                                            Client
+                                        </p>
+                                    </div>
+
+                                    <div>
+                                        <h1 class="text-white text-[56px] font-extrabold leading-[60px]">
+                                            400+
+                                        </h1>
+                                        <p>
+                                            Client
+                                        </p>
+                                    </div>
+                                </div>
+                                <img src="images/hero/2.jpg" alt="">
+                            </div>
+                            <!--peragraph-->
+                        </div>
+
+                        
+                    </div>
+                <!--hadding & peragraph-->
                 </section>
             <!-- Hero Section -->
 
